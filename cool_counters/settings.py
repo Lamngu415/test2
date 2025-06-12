@@ -83,8 +83,9 @@ DATABASES = {
         'HOST': os.getenv('tstlinux-server.postgres.database.azure.com'),
         'PORT': os.getenv('DB_PORT', '5432'),
         'OPTIONS': {
-            'sslmode': 'require',
-        },
+            'sslmode': 'require'}, 
+    },
+
 }
 
 
