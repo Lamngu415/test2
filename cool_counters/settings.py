@@ -78,7 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.getenv('tstlinux-database'),
-        'USER': os.getenv('ickmlnnivr'),
+        'USER': os.getenv('root'),
+# 'USER': os.getenv('ickmlnnivr'),
         'PASSWORD': os.getenv('p$Z7gKjC7oHWZDzs'),
         'HOST': os.getenv('tstlinux-server.postgres.database.azure.com'),
         'PORT': os.getenv('DB_PORT', '5432'),
